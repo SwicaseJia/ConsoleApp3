@@ -29,5 +29,10 @@ namespace ConsoleApp3
             return 1;
 
         }
+        static int GetHeight()
+        {
+            return 1;
+
+        }
     }
 }
