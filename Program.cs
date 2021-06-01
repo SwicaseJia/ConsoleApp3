@@ -41,6 +41,7 @@ namespace ConsoleApp3
         }
          static int GetMoney_Branch()
         {
+            string str = "在主分支上添加";
             return 1;
 
         }
