@@ -39,5 +39,10 @@ namespace ConsoleApp3
             return 1;
 
         }
+         static int GetMoney_Branch()
+        {
+            return 1;
+
+        }
     }
 }
