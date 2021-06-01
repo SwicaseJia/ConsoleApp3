@@ -39,9 +39,9 @@ namespace ConsoleApp3
             return 1;
 
         }
-         static int GetMoney_Branch()
+        static int GetMoney_Branch()
         {
-            string str = "在主分支上添加";
+            string str = "合并分支后修改";
             return 1;
 
         }
