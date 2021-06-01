@@ -39,8 +39,9 @@ namespace ConsoleApp3
             return 1;
 
         }
-         static int GetMoney_Branch()
+        static int GetMoney_Branch()
         {
+            string str="在分支上创建";
             return 1;
 
         }
