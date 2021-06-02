@@ -9,6 +9,8 @@ namespace ConsoleApp3
 {
     class Program
     {
+
+        static string testStr = "test";
         /// <summary>
         /// 主函数注释
         /// </summary>
@@ -19,9 +21,15 @@ namespace ConsoleApp3
             Console.WriteLine((new Class1()).GetName());
 
             System.Console.WriteLine("年龄");
+            System.Console.WriteLine(testStr);
+
             Console.WriteLine(GetAge());
+
+
             Console.ReadLine();
+
             Class1 cla = new Class1();
+
             cla.GetName();
         }
         static int GetAge()
@@ -34,14 +42,12 @@ namespace ConsoleApp3
             return 1;
 
         }
+        /// <summary>
+        /// 测试 GetMoney
+        /// </summary>
+        /// <returns></returns>
         static int GetMoney()
         {
-            return 1;
-
-        }
-        static int GetMoney_Branch()
-        {
-            string str = "合并分支后修改";
             return 1;
 
         }
