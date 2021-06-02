@@ -34,7 +34,7 @@ namespace ConsoleApp3
         }
         static int GetAge()
         {
-            string str = "在主分支上修改";
+            string str = "在主分支上修改1";
             return 1;
 
         }
